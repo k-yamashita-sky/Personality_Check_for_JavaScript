@@ -1,32 +1,34 @@
-React 環境構築手順（Node.js版）
-この手順では、Node.js をインストールし、Reactのサンプルアプリケーションを起動するまでの流れを解説します。
+# React 環境構築手順（Node.js版）
 
-1. Node.js のインストール
-Reactを動かすための実行環境である Node.js をインストールします。
+この手順では、**Node.js** をインストールし、Reactのサンプルアプリケーションを起動するまでの流れを解説します。
 
-公式サイトへアクセス
+---
 
-Node.js Download (en)
+## 1. Node.js のインストール
 
-インストーラーのダウンロード
+Reactを動かすための実行環境である **Node.js** をインストールします。
 
-「Prebuilt Installer」セクションから Windows Installer (.msi) を選択してダウンロードします。
+### ① 公式サイトへアクセス
+[Node.js Download (en)](https://nodejs.org/en/download/)
 
-インストール
+### ② インストーラーのダウンロード
+「Prebuilt Installer」セクションから **Windows Installer (.msi)** を選択してダウンロードします。
 
-ダウンロードしたファイルを実行し、基本的にはすべて [Next]（次へ）を選択して完了させてください。
+### ③ インストール
+ダウンロードしたファイルを実行し、基本的にはすべて **[Next]**（次へ）を選択して完了させてください。
 
-2. React プロジェクトの作成
-Node.jsがインストールできたら、Reactの雛形（サンプルコード）を作成します。 ※ターミナル（PowerShellやコマンドプロンプト）を開いて実行してください。
+---
 
-Bash
+## 2. React プロジェクトの作成
+
+Node.jsがインストールできたら、Reactの雛形（サンプルコード）を作成します。  
+※ターミナル（PowerShellやコマンドプロンプト）を開いて実行してください。
+
+```bash
 # Reactプロジェクトの新規作成
 # (react-sample-app という名前のフォルダが自動で作られます)
 npx create-react-app react-sample-app
-3. アプリケーションの起動
-作成したプロジェクトに移動し、ローカルサーバーを起動して画面を確認します。
 
-Bash
 # 作成されたプロジェクトディレクトリへ移動
 cd react-sample-app
 
